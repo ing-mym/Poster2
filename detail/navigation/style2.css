@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: "Playfair Display", serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  color:#c59649 ;
+}
+.logo-ernl{
+    width:200px;
+    height:100px;
+    float:left;
+}
+.logo-erns{
+    display: None;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap:5px
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    gap:5px
+}
+
+.box{
+    border:5px solid #c59649;
+    width:175.5px;
+    height:248px;
+    flex-shrink:0;
+    flex-grow: 0;
+}
+.container .container1 .box .box-img{
+    width:175.5px;
+    height:248px;
+}
+@media (max-width:1100px){
+    .logo-erns{
+        display: flex;
+        width:75px;
+        float:left;
+    }
+    .logo-ernl{
+        display: None;}
+    }
